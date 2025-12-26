@@ -1,9 +1,11 @@
-*{
+* {
   color: #DCD7C9;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
+/* comment line for testing github organization */
+
+body {
   background-color: #2C3930;
   display: flex;
   align-items: center;
@@ -12,7 +14,7 @@ body{
   font-size: 1.5rem;
 }
 
-.container{
+.container {
   background-color: #3F4F44;
   box-shadow: 7px 7px 4px hsl(139, 11%, 10%);
   border: 1px solid black;
@@ -29,7 +31,7 @@ body{
   overflow: auto;
 }
 
-.inputBox{
+.inputBox {
   background-color: #DCD7C9;
   box-shadow: 4px 4px 2px hsl(0, 0%, 10%);
   border: none;
@@ -46,11 +48,11 @@ body{
   outline: none;
 }
 
-.checkboxes{
+.checkboxes {
   margin: .5rem;
 }
 
-button{
+button {
   background-color: #A27B5C;
   box-shadow: 4px 4px 2px hsl(27, 28%, 15%);
   border: none;
@@ -61,12 +63,13 @@ button{
   border-radius: .5rem;
   outline: none;
 }
-button:active{
+
+button:active {
   transform: scale(0.98);
   box-shadow: inset 4px 4px 2px hsl(27, 28%, 15%);
 }
 
-h3{
+h3 {
   text-align: center;
   margin-top: 2.5rem;
   max-width: 23rem;
@@ -75,14 +78,14 @@ h3{
   word-wrap: break-word;
 }
 
-@media (max-width: 520px){
-  .container{
+@media (max-width: 520px) {
+  .container {
     padding: 2rem;
     width: 15rem;
     height: 35rem;
   }
 
-  h3{
+  h3 {
     max-width: 13rem;
   }
 }
